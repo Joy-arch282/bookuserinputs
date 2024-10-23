@@ -1,0 +1,36 @@
+/*author :Joyce
+reg no :CT102/G/22778/24
+c structure*/
+
+#include <stdio.h>
+#include<string.h>
+
+struct book {
+char title[30];
+char author[30];
+int publication_year;
+char ISBN[13];
+float price;
+}book;
+
+int main()
+{
+struct book;
+
+printf("enter the title:");
+scanf("%s",book.title);
+
+printf("enter the author:");
+scanf("%s", &book.author);
+
+printf("enter the publication_year:");
+scanf("%d",& book.publication_year);
+
+printf("enter the ISBN:");
+scanf("%s", &book.ISBN);
+
+printf("enter the price:");
+scanf("%f",&book.price);
+
+return 0;
+}
